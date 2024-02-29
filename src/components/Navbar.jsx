@@ -8,9 +8,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="yellow-border">
-        <p className="center-text">Welcome to NGO website</p>
-      </div>
+     
       <nav className="nav-header">
         <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>
@@ -22,19 +20,19 @@ export const Navbar = () => {
         </Link>
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <NavLink to="/WHO-WE-ARE">WHO WE ARE</NavLink>
+            <NavLink to="/ABOUT_US">ABOUT US</NavLink>
           </li>
           <li>
-            <NavLink to="/FOR-ORGANIZATION">FOR ORGANIZATION</NavLink>
+            <NavLink to="/OUR_WORK<">OUR WORK</NavLink>
           </li>
           <li>
-            <NavLink to="/FOR-YOUNG-PEOPLE">FOR YOUNG PEOPLE</NavLink>
+            <NavLink to="/CAMPAIGNS">CAMPAIGNS</NavLink>
           </li>
           <li>
-            <NavLink to="/IMPEACT-REPORT">IMPEACT REPORT</NavLink>
+            <NavLink to="/MEDIA_CENTER">MEDIA CENTER</NavLink>
           </li>
           <li>
-            <NavLink to="/NEWS">NEWS</NavLink>
+            <NavLink to="/CONTACT_US">CONTACT US</NavLink>
           </li>
           
           <li>
@@ -42,11 +40,7 @@ export const Navbar = () => {
               <FaSignInAlt /> Sign In
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/donate" className="yellow-button">
-              Donate
-            </NavLink>
-          </li>
+          
         </ul>
       </nav>
     </>

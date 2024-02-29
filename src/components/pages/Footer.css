@@ -1,0 +1,35 @@
+.footer {
+    background-color: #4c4d4c; 
+    color: #fff; 
+    padding: 30px 20px; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+   .foot .social-icons{
+    width: 90%;
+  }
+  .social-icons {
+    max-width: calc(50% - 20px);
+    display: flex;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  .copyright {
+    color: #fff;
+    font-family: "raleway";
+    font-size: 14px;
+  }

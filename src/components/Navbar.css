@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff; /* White header background */
-    color: #000000; /* Black text color */
+    background-color: #ffffff; 
+    color: #000000; 
     position: sticky;
     top: 0;
   }
@@ -13,7 +13,7 @@
     margin: 1rem;
     font-weight: bold;
     text-decoration: none;
-    color: #000000; /* Black text color */
+    color: #000000; 
   }
   
   nav ul {
@@ -27,7 +27,7 @@
   nav ul li a {
     display: block;
     text-decoration: none;
-    color: #000000; /* Black text color */
+    color: #000000; 
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
@@ -41,7 +41,7 @@
     display: none;
     position: absolute;
     top: 0.75rem;
-    left: 0.5rem; /* Changed to left */
+    left: 0.5rem; 
     flex-direction: column;
     justify-content: space-between;
     width: 2.25rem;
@@ -51,32 +51,24 @@
   nav .menu span {
     height: 0.4rem;
     width: 100%;
-    background-color: #000000; /* Black color for menu icon */
+    background-color: #000000; 
     border-radius: 0.2rem;
   }
   
   .yellow-border {
-    background-color: #ffaf00; /* Yellow color */
-    height: 2rem; /* Adjust height as needed */
+    background-color: #ffaf00; 
+    height: 2rem; 
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .yellow-border p {
-    color: #000000; /* Black text color */
-    margin: 0; /* Remove default margin */
+    color: #000000; 
+    margin: 0;
   }
   
-  .yellow-button {
-    background-color: #ffaf00; /* Yellow button */
-    padding: 0.5rem;
-    border-radius: 0rem; /* Add border radius for rounded corners */
-    margin: 0; /* Remove any margin */
-    margin-top: -18%;
-    height: 170%;
-  }
-  
+
   @media (max-width: 768px) {
     nav .menu {
       display: flex;
@@ -108,10 +100,11 @@
     }
   
     .yellow-button {
-      width: auto; /* Adjust width as needed */
-      margin-top: 0; /* Reset margin-top */
-      height: auto; /* Reset height */
-      margin-bottom: 1rem; /* Add some space below the button */
+      width: auto; 
+      margin-top: 0; 
+      height: auto; 
+      margin-bottom: 1rem; 
     }
   }
+  
   
